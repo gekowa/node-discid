@@ -1,0 +1,19 @@
+{
+  "name": "node-discid",
+  "version": "0.0.1",
+  "description": "Calculates CDDB1 (FreeDB) disc ID",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "cddb",
+    "freedb"
+  ],
+  "author": "Guo, Xinghua",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
