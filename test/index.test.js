@@ -1,4 +1,4 @@
-var assert = require("assert");
+const assert = require("assert");
 
 const { calcDiscId, calcDiscIdByOffsets } = require("../src");
 
@@ -6,7 +6,6 @@ describe("CDDB DiscId Calculator", function() {
   describe("#calcDiscId()", function() {
     it("should return 310acf04 for sample 1", function() {
       const discId = calcDiscId([549.77,934.83,762.79,519.61]);
-      console.log(discId);
       assert.equal(discId, "310acf04");
     });
     it("should return d110b310 for sample 2", function() {

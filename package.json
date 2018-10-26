@@ -2,6 +2,7 @@
   "name": "node-discid",
   "version": "0.0.1",
   "description": "Calculates CDDB1 (FreeDB) disc ID",
+  "homepage": "https://github.com/gekowa/node-discid",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha"
