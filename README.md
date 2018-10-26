@@ -1,4 +1,6 @@
-# Calculates CDDB1 (FreeDB) disc ID
+# Calculates CDDB1 (FreeDB) disc ID 
+
+[![Build Status](https://api.travis-ci.com/gekowa/node-discid.svg?branch=master)](https://travis-ci.com/gekowa/node-discid/)
 
 A package that calculates CDDB1 style disc ID, the 8 digit disc ID.
 
