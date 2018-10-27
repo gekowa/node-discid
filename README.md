@@ -4,11 +4,12 @@
 
 A package that calculates CDDB1 style disc ID, the 8 digit disc ID.
 
-## Usage
-
+## Install
 ```bash
 npm install node-discid
 ```
+
+## Usage
 
 ```javascript
 const { calcDiscId, calcDiscIdByOffsets } = require("node-discid");
@@ -16,7 +17,6 @@ const { calcDiscId, calcDiscIdByOffsets } = require("node-discid");
 calcDiscId([549.77,934.83,762.79,519.61]);  // returns "310acf04"
 calcDiscIdByOffsets([150,41383,111495,168704], 2769);   // returns "310acf04"
 ```
-
 
 ## API
 
